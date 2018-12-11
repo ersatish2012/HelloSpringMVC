@@ -110,7 +110,7 @@
 				<version>2.2</version>
 				<configuration>
 					<path>/spring2</path>
-					<url>http://${tomcat.hostname}:${tomcat.port}/manager/text</url>
+					<url>https://${tomcat.hostname}:${tomcat.port}/manager/text</url>
 					<username>${tomcat.user}</username>
 					<password>${tomcat.pass}</password>
 				</configuration>
